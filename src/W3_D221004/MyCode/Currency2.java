@@ -1,4 +1,4 @@
-package MyCode;
+package W3_D221004.MyCode;
 
 import java.util.Scanner;
 

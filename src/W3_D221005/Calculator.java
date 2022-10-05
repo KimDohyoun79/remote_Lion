@@ -1,3 +1,5 @@
+package W3_D221005;
+
 //Ok
 public class Calculator {
     int a, b;
@@ -30,6 +32,7 @@ public class Calculator {
     public void divide() {
         System.out.println(a / b);
     }
+
     public void divide2() {
         System.out.println((float) a / b);
     }

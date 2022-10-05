@@ -1,4 +1,4 @@
-package MyCode;/*
+package W3_D221004.MyCode;/*
     https://codeup.kr/problem.php?id=1156&rid=0
     용준이와 봉찬이는 공기 놀이로 내기를 하였다.
     만약 홀수개의 돌을 쥐게 되면 용준이가 이기게 되고, 짝수개의 돌을 쥐게 되면 봉찬이가 이기는 것으로 룰을 정하였다.
