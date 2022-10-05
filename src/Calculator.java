@@ -30,5 +30,8 @@ public class Calculator {
     public void divide() {
         System.out.println(a / b);
     }
+    public void divide2() {
+        System.out.println((float) a / b);
+    }
 }
 

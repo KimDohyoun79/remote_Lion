@@ -8,6 +8,7 @@ public class CalculatorMain {
         cal.minus();
         cal.multiple();
         cal.divide();
+        cal.divide2();
     }
 }
 
