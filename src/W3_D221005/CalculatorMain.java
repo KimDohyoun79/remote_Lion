@@ -1,6 +1,6 @@
 package W3_D221005;
 
-//Ok
+
 public class CalculatorMain {
 
     public static void main(String[] args) {
