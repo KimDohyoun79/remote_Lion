@@ -1,4 +1,4 @@
-package W3_D221004;
+package W3_D1_221004;
 
 import java.util.Scanner;
 

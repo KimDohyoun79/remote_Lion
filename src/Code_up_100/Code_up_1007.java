@@ -1,4 +1,4 @@
-package W3_D221004.Code_up_100;
+package Code_up_100;
 
 /*
     https://codeup.kr/problem.php?id=1007

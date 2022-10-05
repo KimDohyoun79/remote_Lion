@@ -1,4 +1,4 @@
-package W3_D221005;
+package W3_D2_221005.Constructor;
 
 //Ok
 public class RandomNumberMain {
