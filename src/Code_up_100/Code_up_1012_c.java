@@ -7,7 +7,7 @@ package Code_up_100;
 
 import java.util.Scanner;
 
-public class Code_up_1012_check {
+public class Code_up_1012_c {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);

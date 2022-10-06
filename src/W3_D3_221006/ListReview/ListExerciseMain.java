@@ -1,3 +1,5 @@
+package W3_D3_221006.ListReview;
+
 import java.util.List;
 
 public class ListExerciseMain {
@@ -10,6 +12,7 @@ public class ListExerciseMain {
         for (String student : students){
             System.out.println(student);
         }
+
         System.out.println(students.size());
     }
 }
