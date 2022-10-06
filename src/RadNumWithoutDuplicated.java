@@ -9,9 +9,10 @@ public class RadNumWithoutDuplicated {
         // 중복제거
         HashSet<Character> alpa = new HashSet<>();
         for (int i = 0; i < 100; i++) {
-            int r = randomNumberGenerator.generate(26) + 65;
-            alpa.add((char)r);
+            char r = randomNumberGenerator.generate(26); //A~Z 26개의 알파벳
+            alpa.add(r);
         }
+        
         System.out.println(alpa);
         System.out.println(alpa.size());
     }

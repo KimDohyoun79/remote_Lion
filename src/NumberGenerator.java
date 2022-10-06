@@ -1,3 +1,3 @@
 public interface NumberGenerator {
-    int generate(int num);
+    char generate(int num);
 }
