@@ -7,3 +7,7 @@ public class FileList {
         System.out.println(files[0]);
     }
 }
+
+/*
+.\.git
+ */
