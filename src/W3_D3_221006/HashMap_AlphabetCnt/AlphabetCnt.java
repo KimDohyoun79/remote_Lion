@@ -1,3 +1,5 @@
+package W3_D3_221006.HashMap_AlphabetCnt;
+
 public class AlphabetCnt {
 
     public static boolean isAlphabet(char word){
