@@ -1,17 +1,15 @@
-package W3_D2_221005.Listpractice;
-
 import java.util.List;
 
-public class listPracticeMain {
-
+public class ListExerciseMain {
     public static void main(String[] args) {
-        LikeLion2th likeLion2th = new LikeLion2th();
-        List<String> students = likeLion2th.getStudentList();
+
+        ListExercise listExercise = new ListExercise();
+
+        List<String> students = listExercise.getStudents();
 
         for (String student : students){
             System.out.println(student);
         }
-
         System.out.println(students.size());
     }
 }
