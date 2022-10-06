@@ -7,13 +7,14 @@ package Code_up_100;
 
 import java.util.Scanner;
 
-public class Code_up_1020 {
+public class Code_up_1020_c {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        String  num =  sc.nextLine();
+        String num = sc.nextLine();
 
-       // System.out.printf("%04d.%02d.%02d", Integer.parseInt(day[0]), Integer.parseInt(day[1]), Integer.parseInt(day[2]));
+        num = num.replace("-", "");
+        System.out.printf(num);
     }
 }
