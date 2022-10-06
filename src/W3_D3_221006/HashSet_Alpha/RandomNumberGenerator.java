@@ -1,4 +1,4 @@
-package W3_D3_221006.HashSet_Alpa;
+package W3_D3_221006.HashSet_Alpha;
 
 public class RandomNumberGenerator implements NumberGenerator {
 
