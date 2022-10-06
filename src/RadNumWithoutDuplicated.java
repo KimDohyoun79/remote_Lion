@@ -9,7 +9,7 @@ public class RadNumWithoutDuplicated {
         // 중복제거
         HashSet<Character> numbers = new HashSet<>();
         for (int i = 0; i < 100; i++) {
-            int r = randomNumberGenerator.generate(26) + 97;
+            int r = randomNumberGenerator.generate(26) + 65;
             numbers.add((char)r);
         }
         System.out.println(numbers);
