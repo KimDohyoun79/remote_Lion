@@ -1,5 +1,6 @@
 import java.io.IOException;
-//https://school.programmers.co.kr/learn/courses/30/lessons/12931
+// 자리수 계산
+// https://school.programmers.co.kr/learn/courses/30/lessons/12931
 public class Programmers_1 {
 
     public int solution(int n) {

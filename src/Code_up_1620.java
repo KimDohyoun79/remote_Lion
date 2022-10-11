@@ -4,7 +4,7 @@ import java.util.Scanner;
 // 자리수 합
 // https://codeup.kr/problem.php?id=1620
 
-public class Main {
+public class Code_up_1620 {
 
     public static int solution(int n) {
         int hap = 0;
