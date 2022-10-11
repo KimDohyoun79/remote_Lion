@@ -1,10 +1,6 @@
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
-import java.util.List;
-
-public class Main {
+//https://school.programmers.co.kr/learn/courses/30/lessons/12931
+public class Programmers_1 {
 
     public int solution(int n) {
         int answer = 0;
@@ -18,7 +14,7 @@ public class Main {
 
     }
     public static void main(String[] args) throws IOException {
-        Main main = new Main();
+        Programmers_1 main = new Programmers_1();
         int result = main.solution(1234);
 
         if (result == 10)
