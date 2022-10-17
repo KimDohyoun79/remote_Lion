@@ -1,6 +1,5 @@
 public class Star01 {
-
-    public static void printStar(int n) {
+    public void printStar(int n) {
         for (int i = 0; i < n; i++) {
             for (int j = 0; j <= i; j++) {
                 System.out.print("*");
@@ -11,8 +10,8 @@ public class Star01 {
 
     public static void main(String[] args) {
 
+        Star01 star = new Star01();
         int n = 5;
-        printStar(n);
-
+        star.printStar(n);
     }
 }
