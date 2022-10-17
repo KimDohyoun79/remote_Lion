@@ -31,3 +31,4 @@
 - `Star01` : 직사각형 별찍기
 - `Star02` : 피라미드 별찍기
 - `Star_Constructor` : [도전] Constructor를 통해 초기화 할수 있게 Refactoring
+- `Star03` : [도전] 마름모 별찍기
