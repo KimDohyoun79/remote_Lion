@@ -2,11 +2,11 @@ public class Star02 {
 
     private String letter = "*";
 
-    public Star02(){
+    public Star02(){  // 기본 생성자
 
     }
 
-    public Star02(String letter){
+    public Star02(String letter){  // Constructor 오버로딩
         this.letter = letter;
     }
 
