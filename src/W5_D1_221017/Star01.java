@@ -1,3 +1,5 @@
+package W5_D1_221017;
+
 public class Star01 {
     public void printStar(int n) {
         for (int i = 0; i < n; i++) {

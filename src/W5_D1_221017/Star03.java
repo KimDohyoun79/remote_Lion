@@ -1,3 +1,5 @@
+package W5_D1_221017;
+
 public class Star03 {
 
     private String letter = "*";
