@@ -1,3 +1,5 @@
+package W6_D1_221024;
+
 import java.util.Arrays;
 // https://school.programmers.co.kr/learn/courses/30/lessons/42748?language=java
 

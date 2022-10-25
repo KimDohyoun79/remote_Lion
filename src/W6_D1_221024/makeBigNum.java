@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package W6_D1_221024;
 
 public class makeBigNum {
     public static void main(String[] args) {
