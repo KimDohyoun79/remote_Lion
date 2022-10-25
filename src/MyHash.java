@@ -7,14 +7,32 @@ public class MyHash {
     }
 }
 
-class LetsMakeHash{
+class LetsMakeHash {
 
-    public int hash(String key){
+    private int size = 10000;
+    private int table[] = new int[size];
+
+    public LetsMakeHash() {
+    }
+
+    public LetsMakeHash(int size) {
+        this.size = size;
+    }
+
+    public int hash(String key) {
         int asciisum = 0;
         for (int i = 0; i < key.length(); i++) {
             asciisum += key.charAt(i);
         }
-        return asciisum;
+        return asciisum % size;
     }
 
+    public void insert(String key, int value) {
+        int n = hash(key);
+        table[n] = value;
+    }
+
+    public int search(String key) {
+        return table[hash(key)];
+    }
 }
