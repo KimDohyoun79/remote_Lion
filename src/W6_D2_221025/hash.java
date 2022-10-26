@@ -1,49 +1,52 @@
-import java.util.PriorityQueue;
+package W6_D2_221025;
 
-public class MyHash {
+public class hash {
+
     public static void main(String[] args) {
         String[] names = new String[]{"DongyeonKang",
                 "SubinKang", "KwanwunKo", "HyunseokKo", "KyoungdukKoo", "YeonjiGu", "SoyeonKown", "OhsukKwon", "GunwooKim", "KiheonKim", "NayeongKim", "DohyeonKim", "MinkyoungKim", "MinjiKim", "SanghoKim", "SolbaeKim", "YejinKim", "EungjunKim", "JaegeunKim", "JeonghyeonKim", "JunhoKim", "JisuKim", "kimjinah", "HaneulKim", "HeejungKim", "KimoonPark", "EunbinPark", "JeongHoonPark", "JeminPark", "TaegeunPark", "JiwonBae", "SeunggeunBaek", "JihwanByeon", "HeungseopByeon", "JeongHeeSeo", "TaegeonSeo", "SeeYunSeok", "SuyeonSeong", "SeyoelSon", "MinjiSong", "JinwooSong", "hyunboSim", "SominAhn", "JiyoungAhn", "ChangbumAn", "SoonminEom",
                 "HyeongsangOh", "SuinWoo", "JuwanWoo", "InkyuYoon", "GahyunLee", "DaonLee", "DohyunLee", "SanghunLee", "SujinLee", "AjinLee", "YeonJae", "HyeonjuLee", "HakjunYim", "SeoyunJang", "SeohyeonJang", "JinseonJang", "SujinJeon", "SeunghwanJeon", "DaehwanJung", "JaeHyunJeung", "HeejunJeong", "GukhyeonCho", "MunjuJo", "YejiJo", "ChanminJu", "MinjunChoi", "SujeongChoi", "SeunghoChoi", "AyeongChoi", "GeonjooHan", "JinhyuckHeo", "MinwooHwang", "SieunHwang",
                 "JunhaHwang"};
 
-        LetsMakeHash myhash = new LetsMakeHash(200);
-
+        HashTable ht = new HashTable(200);
         for (int i = 0; i < names.length; i++) {
-            if( myhash.search(names[i]) != 0){
-                System.out.println(myhash.hash(names[i]));
-            }
-            myhash.insert(names[i], myhash.hash(names[i]));
+            ht.insert(names[i], ht.hash(names[i]));
         }
+
+        System.out.println(ht.search("DongyeonKang"));
+        System.out.println(ht.search("JiyoungAhn"));
+
     }
 }
 
-class LetsMakeHash {
+class HashTable {
 
     private int size = 10000;
-    private int table[] = new int[size];
+    private int[] table = new int[size];
 
-    public LetsMakeHash() {
+    public HashTable() {
     }
 
-    public LetsMakeHash(int size) {
+    public HashTable(int size) {
         this.size = size;
+        this.table = new int[size];
     }
 
-    public int hash(String key) {
-        int asciisum = 0;
-        for (int i = 0; i < key.length(); i++) {
-            asciisum += key.charAt(i);
-        }
-        return asciisum % size;
-    }
-
-    public void insert(String key, int value) {
-        int n = hash(key);
-        table[n] = value;
+    public void insert(String key, Integer value) {
+        int hashCode = hash(key);
+        this.table[hashCode] = value;
+        System.out.println(hashCode + "방에 저장이 완료 되었습니다.");
     }
 
     public int search(String key) {
-        return table[hash(key)];
+        return this.table[hash(key)];
+    }
+
+    public int hash(String key) {
+        int asciiSum = 0;
+        for (int i = 0; i < key.length(); i++) {
+            asciiSum += key.charAt(i);
+        }
+        return asciiSum % size;
     }
 }
