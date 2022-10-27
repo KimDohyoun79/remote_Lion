@@ -12,9 +12,13 @@ public class Programmers_Hash {
         System.out.println(hash.solution(participant[index], completion[index]));
 
     }
-
-
 }
+/*
+    1. HashMep으로 key : participant, value : 1 로 세팅
+    2. 만약 participant에서 중복 이름이 있을 경우 기본 value 값에서 +1을 한다.
+    3. completion의 이름을 하나씩 검색하여 value - 1을 한다.
+    4. value 값이 0이 아닌경우 반환 
+ */
 
 class HashSolution {
     public String solution(String[] participant, String[] completion) {

@@ -1,4 +1,4 @@
-package W6_D2_221025;
+package W6_D2_221025_6;
 // 해쉬 충돌 해결01 : 해쉬(중복) 해결을 위해 Node 객체타입으로 ArrayList에 추가
 // 1. 문자열을 해쉬로 전환 후 size만큼 나누어 인덱스 번호를 만들어 낸다.
 // 2. 내부 클레스 Node 를 만들어 key, value를 객체로 저장한다.
@@ -6,7 +6,7 @@ package W6_D2_221025;
 import java.util.ArrayList;
 import java.util.List;
 
-public class hash03 {
+public class hash02 {
 
     public static void main(String[] args) {
         String[] names = new String[]{"DongyeonKang",
@@ -42,7 +42,7 @@ public class hash03 {
     }
 }
 
-class HashTable03 {
+class HashTable02 {
 
     class Node {
         private String key;
@@ -65,10 +65,10 @@ class HashTable03 {
     private int size = 10000;
     private List<Node>[] table = new ArrayList[size];
 
-    public HashTable03() {
+    public HashTable02() {
     }
 
-    public HashTable03(int size) {
+    public HashTable02(int size) {
         this.size = size;
         this.table = new ArrayList[size];
     }
