@@ -1,5 +1,6 @@
 package W6_D2_221025;
-
+// hash(), insert(), search() 만들기
+// => 문자열을 해쉬로 전환 후 size만큼 나누어 인덱스 번호를 만들어 낸다.
 public class hash {
 
     public static void main(String[] args) {

@@ -6,7 +6,7 @@ package W6_D2_221025;
 import java.util.ArrayList;
 import java.util.List;
 
-public class hash02 {
+public class hash03 {
 
     public static void main(String[] args) {
         String[] names = new String[]{"DongyeonKang",
@@ -42,7 +42,7 @@ public class hash02 {
     }
 }
 
-class HashTable02 {
+class HashTable03 {
 
     class Node {
         private String key;
@@ -65,10 +65,10 @@ class HashTable02 {
     private int size = 10000;
     private List<Node>[] table = new ArrayList[size];
 
-    public HashTable02() {
+    public HashTable03() {
     }
 
-    public HashTable02(int size) {
+    public HashTable03(int size) {
         this.size = size;
         this.table = new ArrayList[size];
     }
