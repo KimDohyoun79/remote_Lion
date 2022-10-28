@@ -1,4 +1,4 @@
-//https://school.programmers.co.kr/learn/courses/30/lessons/42576?language=java
+package W6_D4_221027;//https://school.programmers.co.kr/learn/courses/30/lessons/42576?language=java
 
 import java.util.HashMap;
 
@@ -17,7 +17,7 @@ public class Programmers_Hash {
     1. HashMep으로 key : participant, value : 1 로 세팅
     2. 만약 participant에서 중복 이름이 있을 경우 기본 value 값에서 +1을 한다.
     3. completion의 이름을 하나씩 검색하여 value - 1을 한다.
-    4. value 값이 0이 아닌경우 반환 
+    4. value 값이 0이 아닌경우 반환
  */
 
 class HashSolution {
