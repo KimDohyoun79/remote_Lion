@@ -1,8 +1,8 @@
 import java.util.HashSet;
-
+// 폰켓몬 : https://school.programmers.co.kr/learn/courses/30/lessons/1845
 public class Programmers_Hash01 {
     public static void main(String[] args) {
-        HashSolution hash = new HashSolution();
+        HashSolution01 hash = new HashSolution01();
         int[][] test = {{3, 1, 2, 3}, {3, 3, 3, 2, 2, 4}, {3, 3, 3, 2, 2, 2}};
 
         System.out.println(hash.solution(test[2]));
@@ -16,7 +16,7 @@ public class Programmers_Hash01 {
     4. 아니면 hesh.size
  */
 
-class HashSolution {
+class HashSolution01 {
     public int solution(int[] nums) {
         int answer = 0;
         HashSet set = new HashSet();

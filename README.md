@@ -1,5 +1,10 @@
 # Like_Lion_Back 2th
 
+## 목차
+1. [3주차](W3_D1_221004)
+
+
+
 ### W3_D1_221004
 - `ArrayTest` : 배열 체크
 - `Currency` : 화폐 단위 체크 문제
@@ -32,3 +37,47 @@
 - `Star02` : 피라미드 별찍기
 - `Star_Constructor` : [도전] Constructor를 통해 초기화 할수 있게 Refactoring
 - `Star03` : [도전] 마름모 별찍기
+
+
+
+
+
+### W6_D5_221028
+- `Programmers_Hash01` : [프로그래머스 폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
+- `Programmers_Hash02` : [프로그래머스 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
+
+---
+
+
+
+>ㅇㄹ
+> >ㄹㅇㄹ
+
+>>ㅇㄹ
+
+
+1. ㅁㄴㅇ
+2. ㅇㄴㄹ
+3. **ㅎㅇㄹ**
+
++ 1
+    + 2
+        + 3
+
+- 1
+  - 2
+    - 3
+
+* 1
+    * 2
+        * 3
+  
+  
+<details>
+<summary>여기를 눌러주세요</summary>
+<div markdown="1">       
+- 😎숨겨진 내용😎
+- ㅁㄴㅇㅁ
+- ㅁㄴㅇ
+</div>
+</details>
