@@ -1,3 +1,5 @@
+package W6_D5_221028;
+
 import java.util.HashSet;
 // 폰켓몬 : https://school.programmers.co.kr/learn/courses/30/lessons/1845
 public class Programmers_Hash01 {

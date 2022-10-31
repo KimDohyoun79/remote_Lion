@@ -1,5 +1,7 @@
+package W6_D5_221028;
+
 import java.util.Arrays;
-import java.util.HashSet;
+
 // 전화번호 목록 : https://school.programmers.co.kr/learn/courses/30/lessons/42577
 public class Programmers_Hash02 {
     public static void main(String[] args) {
@@ -27,7 +29,6 @@ class HashSolution02 {
             if (phone_book[i + 1].startsWith(phone_book[i]))
                 return false;
 
-       
         return true;  // 3. 접두어가 으면 true 리턴
     }
 }

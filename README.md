@@ -47,7 +47,17 @@
 - `Programmers_Hash02` : [프로그래머스 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 
 ---
+### W7_D1_221031
+- `Programmers_prepareTest` : [프로그래머스 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
+- `Programmers_Hash02` : [프로그래머스 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 
+
+---
+<details>
+<summary> W6_D5_221028 </summary>
+<div markdown="1">
+</div>
+</details>
 
 
 >ㅇㄹ
