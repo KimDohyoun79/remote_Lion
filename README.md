@@ -3,7 +3,11 @@
 ## 목차
 1. [3주차](W3_D1_221004)
 
+---
 
+
+<details>
+<summary> Week_3 </summary>
 
 ### W3_D1_221004
 - `ArrayTest` : 배열 체크
@@ -26,11 +30,28 @@
 - `Populaion` dir : 대용량 데이터 처리 프로그램
 - `StarFile` dir : 실무에서 사용하는 OOP 예시
 
+</details>
+
+
+---
+
+
+<details>
+<summary> Week_4 </summary>
 
 ### W4_D1_221011
 ### W4_D2_221012
 ### W4_D3_221013
 ### W4_D4_221014
+
+</details>
+
+
+---
+
+
+<details>
+<summary> Week_5 </summary>
 
 ### W5_D1_221017
 - `Star01` : 직사각형 별찍기
@@ -38,26 +59,42 @@
 - `Star_Constructor` : [도전] Constructor를 통해 초기화 할수 있게 Refactoring
 - `Star03` : [도전] 마름모 별찍기
 
+</details>
 
 
+---
 
 
-### W6_D5_221028
+<details>
+<summary> Week_6 </summary>
+
+### W6_D5_221028 (Hash)
 - `Programmers_Hash01` : [프로그래머스 폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 - `Programmers_Hash02` : [프로그래머스 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 
+</details>
+
+
 ---
+
+
+<details>
+<summary> Week_7 </summary>
+
 ### W7_D1_221031
 - `Programmers_prepareTest` : [프로그래머스 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
-- `Programmers_Hash02` : [프로그래머스 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
+
+</details>
 
 
 ---
-<details>
-<summary> W6_D5_221028 </summary>
-<div markdown="1">
-</div>
-</details>
+
+
+
+
+
+
+---
 
 
 >ㅇㄹ
@@ -84,10 +121,8 @@
   
   
 <details>
-<summary>여기를 눌러주세요</summary>
-<div markdown="1">       
-- 😎숨겨진 내용😎
-- ㅁㄴㅇㅁ
-- ㅁㄴㅇ
-</div>
+<summary> </summary>
+
+## 접은 내용
+
 </details>
