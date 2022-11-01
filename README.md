@@ -84,6 +84,9 @@
 ### W7_D1_221031
 - `Programmers_prepareTest` : [프로그래머스 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
 
+
+### W7_D2_221101
+- `IsPrime01` : 
 </details>
 
 
