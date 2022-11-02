@@ -52,27 +52,6 @@ public class IsPrime01 {
     }
 
 
-    static boolean isPrime04(int num) {
-        long start = System.nanoTime();
-
-        for (int i = 2; i < Math.sqrt(num); i++) {
-            if (num % 2 == 0)
-                return false;
-        }
-
-        long end = System.nanoTime();
-        System.out.println("isPrime03 실행시간 : " + (end - start) / 10000000.0);
-
-        return true;
-    }
-
-
-    class Solution {
-        public int solution(String numbers) {
-            int answer = 0;
-            return answer;
-        }
-    }
 
     public static void main(String[] args) {
 
