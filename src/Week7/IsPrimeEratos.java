@@ -13,7 +13,7 @@ public class IsPrimeEratos {
             numArr.add(i);
         }
 
-        //System.out.println(numArr);
+        System.out.println(numArr);
         for (int i = 2; i <= Math.sqrt(num); i++) {
             for (int j = 0; j < numArr.size(); j++) {
                 if (numArr.get(j) % i == 0 && numArr.get(j) / i != 1)
