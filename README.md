@@ -90,7 +90,7 @@
 - `IsPrime02_Callback` : 소수 찾기 함수를 콜백으로 리팩토리
 
 ### W7_D3_221102
-- `IsPrimeEratos` : 에라토스테네스의 체로 소수 찾는 함수
+- `IsPrimeEratos` : 에라토스테네스의 체로 소수 찾는 함수, [프로그래머스 소수 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12921)
 
 </details>
 

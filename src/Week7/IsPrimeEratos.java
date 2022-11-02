@@ -6,23 +6,25 @@ import java.util.List;
 public class IsPrimeEratos {
 
     static boolean isPrimeEratos(int num) {
-        long start = System.nanoTime();
+        //long start = System.nanoTime();
 
         List<Integer> numArr = new LinkedList<>();
         for (int i = 2; i <= num; i++) {
             numArr.add(i);
         }
 
-        System.out.println(numArr);
-        for (int i = 0; i < numArr.size(); i++) {
-            if(numArr.get(i)%2 == 0 && numArr.get(i)/2 != 1)
-                numArr.remove(i);
+        //System.out.println(numArr);
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            for (int j = 0; j < numArr.size(); j++) {
+                if (numArr.get(j) % i == 0 && numArr.get(j) / i != 1)
+                    numArr.remove(j);
+            }
         }
 
-        System.out.println(numArr);
+        System.out.println(numArr.size());
 
-        long end = System.nanoTime();
-        System.out.println("isPrimeEratos 실행시간 : " + (end - start) / 10000000.0);
+        //long end = System.nanoTime();
+        //System.out.println("isPrimeEratos 실행시간 : " + (end - start) / 10000000.0);
 
         return true;
     }
@@ -30,7 +32,7 @@ public class IsPrimeEratos {
 
     public static void main(String[] args) {
 
-        int num = 10;
+        int num = 5;
         System.out.println("isPrime01 : " + isPrimeEratos(num) + "\n");
     }
 }
