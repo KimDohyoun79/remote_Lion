@@ -18,10 +18,11 @@ public class IsPrimeEratos {
             if(numArr.get(i)%2 == 0 && numArr.get(i)/2 != 1)
                 numArr.remove(i);
         }
+
         System.out.println(numArr);
 
         long end = System.nanoTime();
-        System.out.println("isPrime03 실행시간 : " + (end - start) / 10000000.0);
+        System.out.println("isPrimeEratos 실행시간 : " + (end - start) / 10000000.0);
 
         return true;
     }
