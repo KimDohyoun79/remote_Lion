@@ -113,6 +113,12 @@
 ---
 
 
+
+  
+<details>
+<summary> </summary>
+
+## 접은 내용
 >ㅇㄹ
 > >ㄹㅇㄹ
 
@@ -128,17 +134,11 @@
         + 3
 
 - 1
-  - 2
-    - 3
+    - 2
+        - 3
 
 * 1
     * 2
         * 3
-  
-  
-<details>
-<summary> </summary>
-
-## 접은 내용
 
 </details>
