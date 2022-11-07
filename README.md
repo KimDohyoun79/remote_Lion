@@ -98,7 +98,7 @@
 ---
 
 <details>
-<summary> Week_7 </summary>
+<summary> Week_8 </summary>
 
 ### W8_D1_221107
 - `HarshadNumber` : [프로그래머스 하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
