@@ -4,7 +4,7 @@ https://school.programmers.co.kr/learn/courses/30/lessons/12947
 
  */
 
-public class test {
+public class HarshadNumber {
     public static boolean solution(int x) {
         boolean answer = true;
 
