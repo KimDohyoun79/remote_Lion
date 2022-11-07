@@ -10,7 +10,7 @@ public class test {
 
         int sum = 0;
         for (int i = 1; i <= x; i++) { // 자릿수의 합 구하기
-            sum += x;
+            sum += i;
         }
 
         if(sum%x != 0) // 나누어 떨어지는지 check하기
@@ -22,7 +22,7 @@ public class test {
 
     public static void main(String[] args) {
 
-        int num = 21;
+        int num = 12;
         System.out.println(solution(num));
     }
 }
