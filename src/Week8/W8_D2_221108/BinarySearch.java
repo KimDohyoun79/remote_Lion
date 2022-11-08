@@ -15,6 +15,7 @@ public class BinarySearch {
             arr[i] = sc.nextInt();
         }
 
+
         int star = 0;
         int end = arr.length - 1;
         int mid;
@@ -23,14 +24,13 @@ public class BinarySearch {
 
             if (arr[mid] == num) {
                 System.out.println(mid + 1);
-                break;
+                return;
             } else if (num < arr[mid]) {
                 end = mid - 1;
             } else {
                 star = mid + 1;
             }
         }
-
-
+        System.out.println(-1);
     }
 }
