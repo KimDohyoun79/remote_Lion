@@ -1,10 +1,7 @@
-# Like_Lion_Back 2th
+# Like_Lion_Back 2th Algorithm
 
-## 목차
-1. [3주차](W3_D1_221004)
 
 ---
-
 
 <details>
 <summary> Week_3 </summary>
@@ -37,12 +34,22 @@
 
 
 <details>
-<summary> Week_4 </summary>
+<summary> Week_4 - 자리수 문제, 최대값구하기, 버블정렬, 삽입정렬</summary>
 
-### W4_D1_221011
-### W4_D2_221012
-### W4_D3_221013
-### W4_D4_221014
+### W4_D1_221011 자리수 문제
+- `Code_up_1278` : [코드업 자리수 계산](https://codeup.kr/problem.php?id=1278)
+- `Code_up_1620` : [코드업 자리수 합](https://codeup.kr/problem.php?id=1620)
+- `Programmers_1` : [프로그래머스 자릿구 더하기](https://school.programmers.co.kr/learn/courses/30/lessons/12931)
+
+### W4_D2_221012  최대값구하기
+- `MaxNum01` : [코드업 최대값 1](https://codeup.kr/problem.php?id=2081)
+- `MaxNum02` : [코드업 최대값 2](https://codeup.kr/problem.php?id=4596)
+
+### W4_D3_221013 버블정렬
+- `BubbleSort01` : [코드업 버블정렬](https://codeup.kr/problem.php?id=1441)
+
+### W4_D4_221014 삽입정렬
+- `InsetionSort` : [코드업 삽입 정렬](https://codeup.kr/problem.php?id=1443)
 
 </details>
 
@@ -51,9 +58,9 @@
 
 
 <details>
-<summary> Week_5 </summary>
+<summary> Week_5 - 별찍기</summary>
 
-### W5_D1_221017
+### W5_D1_221017 별찍기
 - `Star01` : 직사각형 별찍기
 - `Star02` : 피라미드 별찍기
 - `Star_Constructor` : [도전] Constructor를 통해 초기화 할수 있게 Refactoring
@@ -66,9 +73,9 @@
 
 
 <details>
-<summary> Week_6 </summary>
+<summary> Week_6 - Hash</summary>
 
-### W6_D5_221028 (Hash)
+### W6_D5_221028 Hash
 - `Programmers_Hash01` : [프로그래머스 폰켓몬](https://school.programmers.co.kr/learn/courses/30/lessons/1845)
 - `Programmers_Hash02` : [프로그래머스 전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)
 
@@ -79,13 +86,13 @@
 
 
 <details>
-<summary> Week_7 </summary>
+<summary> Week_7 - 소수찾기, 에라토스테네스의 체</summary>
 
-### W7_D1_221031
+### W7_D1_221031 소수찾기
 - `Programmers_prepareTest` : [프로그래머스 모의고사](https://school.programmers.co.kr/learn/courses/30/lessons/42840)
 
 
-### W7_D2_221101
+### W7_D2_221101 에라토스테네스의 체
 - `IsPrime01` : 소수 찾기
 - `IsPrime02_Callback` : 소수 찾기 함수를 콜백으로 리팩토리
 
@@ -98,12 +105,19 @@
 ---
 
 <details>
-<summary> Week_8 </summary>
+<summary> Week_8 단순탐색, 이진탐색</summary>
 
 ### W8_D1_221107
+###### 여러 자료구조로 풀어보기
 - `HarshadNumber` : [프로그래머스 하샤드 수](https://school.programmers.co.kr/learn/courses/30/lessons/12947)
 - `DivisorArray` : [프로그래머스 나누어 떨어지는 숫자 배열](https://school.programmers.co.kr/learn/courses/30/lessons/12910) 
 
+### W8_D2_221108 단순탐색, 이진탐색
+###### 단순 탐색
+- `SimpleSearch` : [코드업 데이터탐색](https://codeup.kr/problem.php?id=3001&rid=0)
+
+###### 이진탐색 = 바이너리 서치(Binary Search)
+- `BinarySearch` : [코드업 이분 탐색](https://codeup.kr/problem.php?id=2083)
 
 </details>
 
@@ -112,11 +126,35 @@
 
 ---
 
+<details>
+<summary> Week_9 </summary>
+
+### W8_D2_221108
+- `SearchData` : [코드업 데이터탐색](https://codeup.kr/problem.php?id=3001&rid=0)
+
+</details>
+
+
+---
+
+<details>
+<summary> Week_10 </summary>
+
+### W8_D2_221108
+- `SearchData` : [코드업 데이터탐색](https://codeup.kr/problem.php?id=3001&rid=0)
+
+</details>
+
+---
 
 
   
 <details>
 <summary> </summary>
+
+## 목차
+1. [3주차](W3_D1_221004)
+
 
 ## 접은 내용
 >ㅇㄹ

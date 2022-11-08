@@ -4,7 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 //https://codeup.kr/problem.php?id=2081
 
-public class Code_up_2081 {
+public class MaxNum01 {
 
     public static void main(String[] args) throws IOException {
 

@@ -1,11 +1,10 @@
 package Week8.W8_D2_221108;
 
-import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
 //https://codeup.kr/problem.php?id=3001
-public class SearchData {
+public class SimpleSearch {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
