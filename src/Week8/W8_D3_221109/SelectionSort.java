@@ -5,13 +5,6 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class SelectionSort {
-    public static void main(String[] args) {
-
-        int[] arr = {5, 2, 7, 4, 9, 10, 223, 111, 23, 3, 39};
-
-        selectSort(arr);
-
-    }
 
     private static void selectSort(int[] arr){
         int min = -1;
@@ -32,5 +25,12 @@ public class SelectionSort {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
+    }
+
+    public static void main(String[] args) {
+
+        int[] arr = {5, 2, 7, 4, 9, 10, 223, 111, 23, 3, 39};
+
+        selectSort(arr);
     }
 }

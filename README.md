@@ -126,7 +126,7 @@
 - `SelectionSortLamdaCallback` : [도전] 내림차순으로 정렬하는 기능 → Interface Lambda
   - 단순 복사하고 `>` 만 바꾸는 것 => 지양
   - interface선언 하고 callback이용
-  - Function<T, R> 쓰는법
+  - Function<T, R> 쓰는법 => interface 사용 없이 callback
   - [참고 설명](https://sjh836.tistory.com/160)
 </details>
 
