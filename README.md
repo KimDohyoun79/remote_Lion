@@ -119,6 +119,11 @@
 ###### 이진탐색 = 바이너리 서치(Binary Search)
 - `BinarySearch` : [코드업 이분 탐색](https://codeup.kr/problem.php?id=2083)
 
+
+### W8_D1_221109 선택정렬
+###### 선택정렬
+- `SelctionSort` : 
+
 </details>
 
 
