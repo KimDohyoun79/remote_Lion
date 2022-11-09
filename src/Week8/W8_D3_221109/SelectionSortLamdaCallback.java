@@ -2,28 +2,34 @@ package Week8.W8_D3_221109;
 //선택정렬
 
 import java.util.Arrays;
-import java.util.Scanner;
 
-public class SelectionSort {
+
+public class SelectionSortLamdaCallback {
     public static void main(String[] args) {
 
         int[] arr = {5, 2, 7, 4, 9, 10, 223, 111, 23, 3, 39};
 
-        selectSort(arr);
-
+        selectSort(arr, (a, b) -> a > b); // 오름차순
+        selectSort(arr, (a, b) -> a < b); // 내림차순
     }
 
-    private static void selectSort(int[] arr){
+    // interface를 선언하고
+    // Template Callback패턴
+    interface StatementStrategy {
+        boolean apply(int a, int b);
+    }
+
+    private static void selectSort(int[] arr, StatementStrategy stmt) {
         int min = -1;
-        int minIndex;
+        int minIdx;
         for (int i = 0; i < arr.length - 1; i++) {
-            minIndex = i;
+            minIdx = i;
             for (int j = i + 1; j < arr.length; j++) {
-                if (arr[minIndex] > arr[j]) {
-                    minIndex = j;
+                if (stmt.apply(arr[minIdx], arr[j])) {
+                    minIdx = j;
                 }
             }
-            swap(arr, minIndex, i);
+            swap(arr, minIdx, i);
         }
         System.out.println(Arrays.toString(arr));
     }

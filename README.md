@@ -105,7 +105,7 @@
 ---
 
 <details>
-<summary> Week_8 단순탐색, 이진탐색</summary>
+<summary> Week_8 단순탐색&이진탐색, 선택정렬</summary>
 
 ### W8_D1_221107
 ###### 여러 자료구조로 풀어보기
@@ -122,8 +122,12 @@
 
 ### W8_D1_221109 선택정렬
 ###### 선택정렬
-- `SelctionSort` : 
-
+- `SelctionSort` : [설명](https://st-lab.tistory.com/168)
+- `SelectionSortLamdaCallback` : [도전] 내림차순으로 정렬하는 기능 → Interface Lambda
+  - 단순 복사하고 `>` 만 바꾸는 것 => 지양
+  - interface선언 하고 callback이용
+  - Function<T, R> 쓰는법
+  - [참고 설명](https://sjh836.tistory.com/160)
 </details>
 
 
