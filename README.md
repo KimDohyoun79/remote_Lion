@@ -120,7 +120,7 @@
 - `BinarySearch` : [코드업 이분 탐색](https://codeup.kr/problem.php?id=2083)
 
 
-### W8_D1_221109 선택정렬
+### W8_D3_221109 선택정렬
 ###### 선택정렬
 - `SelctionSort` : [설명](https://st-lab.tistory.com/168)
 - `SelectionSortLamdaCallback` : [도전] 내림차순으로 정렬하는 기능 → Interface Lambda
@@ -128,6 +128,11 @@
   - interface선언 하고 callback이용
   - Function<T, R> 쓰는법 => interface 사용 없이 callback
   - [참고 설명](https://sjh836.tistory.com/160)
+
+### W8_D4_221110 
+- `IDontLikesameNum` : Stack 없이 풀기 [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
+
+
 </details>
 
 
