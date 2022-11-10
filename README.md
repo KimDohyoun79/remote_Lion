@@ -131,7 +131,7 @@
 
 ### W8_D4_221110 
 - `IDontLikesameNum` : Stack 없이 풀기 [같은 숫자는 싫어](https://school.programmers.co.kr/learn/courses/30/lessons/12906)
-
+- `IDontLikesameNumStack` : Stack으로 풀기
 
 </details>
 
