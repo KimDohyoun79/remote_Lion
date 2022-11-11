@@ -26,7 +26,6 @@ public class BinaryNum02 {
             }
         }
 
-
         int[] answer = { programCount, zeroCount};
         return answer;
     }

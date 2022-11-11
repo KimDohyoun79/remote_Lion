@@ -136,7 +136,9 @@
 
 
 ### W8_D5_221111
-- `s` : [비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
+- `BinaryNum` : 10진수 => 2진수 변환하기
+- `BinaryNum02` : [프로그래머스 이진 변환 반복하기](https://school.programmers.co.kr/learn/courses/30/lessons/70129)
+- `BinaryNum03` : [프로그래머스 1차 비밀지도](https://school.programmers.co.kr/learn/courses/30/lessons/17681)
 
 
 
