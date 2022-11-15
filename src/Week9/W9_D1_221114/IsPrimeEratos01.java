@@ -1,8 +1,10 @@
-package Week9;
+package Week9.W9_D1_221114;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.LinkedList;
 
-public class IsPrimeEratos {
+public class IsPrimeEratos01 {
     static int isPrimeEratos01(int num) {
 
         int[] numArr = new int[num - 1];
@@ -19,7 +21,13 @@ public class IsPrimeEratos {
         }
         System.out.println(Arrays.toString(numArr));
 
-        return 0;
+        int count = 0;
+        for (int i = 0; i < numArr.length; i++) {
+            if(numArr[i] != 0)
+                count++;
+        }
+
+        return count;
 
     }
 

@@ -152,7 +152,7 @@
 <details>
 <summary> Week_9 </summary>
 
-### W8_D2_221108
+### W8_D1_221108
 - `SearchData` : [코드업 데이터탐색](https://codeup.kr/problem.php?id=3001&rid=0)
 
 </details>
@@ -163,8 +163,11 @@
 <details>
 <summary> Week_10 </summary>
 
-### W8_D2_221108
-- `SearchData` : [코드업 데이터탐색](https://codeup.kr/problem.php?id=3001&rid=0)
+### W9_D1_221112
+- `IsPrimeEratos01` : 에라토스테네스의 체 복습
+
+### W9_D2_221113
+- `` : 
 
 </details>
 
