@@ -1,8 +1,8 @@
-package Week10;
-//https://codeup.kr/problem.php?id=1912
+package Week10.CodeUP_1851_단순재귀로별찍기;
+//https://codeup.kr/problem.php?id=1851
 import java.util.Scanner;
 
-public class CodeUP_1912 {
+public class CodeUP_1851 {
 
 
     public static void re(int num){

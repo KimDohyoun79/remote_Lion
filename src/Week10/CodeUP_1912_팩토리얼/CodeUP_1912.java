@@ -1,9 +1,9 @@
-package Week10;
-//https://codeup.kr/problem.php?id=1851&rid=0
+package Week10.CodeUP_1912_팩토리얼;
+//https://codeup.kr/problem.php?id=1912
 
 import java.util.Scanner;
 
-public class CodeUP_1851 {
+public class CodeUP_1912 {
 
     public static int fac(int num) {
         if (num == 1) {
