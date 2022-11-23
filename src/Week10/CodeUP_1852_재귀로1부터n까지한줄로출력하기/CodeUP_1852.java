@@ -1,16 +1,16 @@
-package Week10.CodeUP_1851_단순재귀로별찍기;
-//https://codeup.kr/problem.php?id=1851
+package Week10.CodeUP_1852_재귀로1부터n까지한줄로출력하기;
+//https://codeup.kr/problem.php?id=1852
 import java.util.Scanner;
 
-public class CodeUP_1851 {
+public class CodeUP_1852 {
 
 
     public static void recursive(int num){
         if(num==0){
             return;
         }
-        System.out.print("*");
-        recursive(--num);
+        recursive(num-1);
+        System.out.print(num + " ");
     }
 
 
