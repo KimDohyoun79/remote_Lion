@@ -10,7 +10,7 @@ public class CodeUP_1852 {
             return;
         }
         recursive(num-1);
-        System.out.print(num + " ");
+
     }
 
 
