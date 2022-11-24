@@ -1,4 +1,4 @@
-package Week10.CodeUP_1912_팩토리얼;
+package Week10.CodeUP_1912_팩토리얼계산;
 //https://codeup.kr/problem.php?id=1912
 
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 package Week10.CodeUP_1853_재귀로1부터n까지합리턴하기;
-//https://codeup.kr/problem.php?id=1852
+//https://codeup.kr/problem.php?id=1853
 import java.util.Scanner;
 
 public class CodeUP_1853 {

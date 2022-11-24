@@ -1,4 +1,4 @@
-package Week10.CodeUP_1855_피보나치;
+package Week10.CodeUP_1855_재귀로n번째피보나치수리턴하기;
 //https://codeup.kr/problem.php?id=1855
 
 import java.util.Scanner;
