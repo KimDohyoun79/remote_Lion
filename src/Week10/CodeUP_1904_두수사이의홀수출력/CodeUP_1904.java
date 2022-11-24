@@ -5,14 +5,6 @@ import java.util.Scanner;
 
 public class CodeUP_1904 {
 
-    public static void f2(int num) {
-        if (num == 0)
-            return;
-
-        f2(num - 1);
-        System.out.print(num + " ");
-    }
-
     public static void fibonacci(int a, int b) {
         if (a > b)
             return;
