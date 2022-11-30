@@ -158,6 +158,9 @@
 ### W9_D1_221115
 - `QuickSort01` : List 를 활용한 퀵정렬
 
+### W9_D1_221116
+- `` :  퀵정렬
+
 ### W9_D5_221118
 - `CaesarCode` : [프로그래머스 시저 암호](https://school.programmers.co.kr/learn/courses/30/lessons/12926)
 - `MatrixAddition` : [행렬의 덧셈](https://school.programmers.co.kr/learn/courses/30/lessons/12950)
@@ -169,13 +172,9 @@
 ---
 
 <details>
-<summary> Week_10 </summary>
+<summary> Week_10 재귀함수 문제</summary>
 
-### W9_D1_221112
-- `IsPrimeEratos01` : 에라토스테네스의 체 복습
-
-### W9_D5_221118
-- `` : 
+#### 10주차 문제 : 재귀함수 문제만 풀어봤다.
 
 </details>
 
