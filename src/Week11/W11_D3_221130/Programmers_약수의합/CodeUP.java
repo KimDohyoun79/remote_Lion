@@ -3,6 +3,16 @@ package Week11.W11_D3_221130.Programmers_약수의합;
 
 public class CodeUP {
 
+    public static int solution1(int n) {
+
+        int answer = 0;
+        for (int i = 1; i <= n; i++) {
+            if(Math.floorMod(n, i) == 0)
+                answer+=i;
+        }
+
+        return answer;
+    }
 
     public static int solution(int n) {
 
@@ -19,5 +29,8 @@ public class CodeUP {
     public static void main(String[] args) {
         System.out.println(solution(12));
         System.out.println(solution(5));
+
+        System.out.println(solution1(12));
+        System.out.println(solution1(5));
     }
 }
