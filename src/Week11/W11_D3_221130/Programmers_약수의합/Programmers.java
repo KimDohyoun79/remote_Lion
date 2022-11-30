@@ -1,7 +1,7 @@
 package Week11.W11_D3_221130.Programmers_약수의합;
 // https://school.programmers.co.kr/learn/courses/30/lessons/12928
 
-public class CodeUP {
+public class Programmers {
 
     public static int solution1(int n) {
 
