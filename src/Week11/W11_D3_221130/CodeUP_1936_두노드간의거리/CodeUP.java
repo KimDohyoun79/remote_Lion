@@ -1,5 +1,5 @@
 package Week11.W11_D3_221130.CodeUP_1936_두노드간의거리;
-//https://codeup.kr/problem.php?id=1851
+// https://codeup.kr/problem.php?id=1936
 
 import java.util.Scanner;
 
