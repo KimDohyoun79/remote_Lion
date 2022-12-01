@@ -16,11 +16,9 @@ public class Programmers {
         return p == y ? true : false;
     }
 
-
     public static void main(String[] args) {
         System.out.println(solution("pPoooyY")); // true
         System.out.println(solution("Pyy")); // false
         System.out.println(solution("abc")); // true
-
     }
 }
