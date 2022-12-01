@@ -1,5 +1,5 @@
 package Week11.W11_D3_221130.Programmers_문자열내p와y의개수;
-// https://school.programmers.co.kr/learn/courses/30/lessons/12928
+// https://school.programmers.co.kr/learn/courses/30/lessons/12916
 
 public class Programmers {
 
